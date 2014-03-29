@@ -1,0 +1,178 @@
+/*
+THEME NAME: Prueba
+THEME URI: 
+DESCRIPTION: Prueba de un tema Wordpress
+VERSION: 0
+AUTHOR: JAno	
+AUTHOR URI:
+*/
+
+@import url("reset.css");
+
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; 
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+#container {
+	border: 1px;
+	margin: 0 auto;
+	text-align: left;
+	width: 70%;
+	padding: 10px 0;
+	
+}
+
+#blog{
+	margin: 0 auto 0 auto;
+	border: 1px solid #f00;
+	padding-bottom: 5em;
+	width: 70%;
+	
+}
+#post-thumb{
+	float: left;
+	padding: 0px 10px 10px 0;
+}
+
+#post-thumb2{
+	float: left;
+	padding: 0px 10px 0px 10px;
+}
+
+#post0{
+	padding: 3px;
+	border: 1px solid #000;
+	width: 45%;
+	height: 30em;
+	float: left;
+	font: 1em arial;
+}	
+
+#post0 h1{
+	font: bold 1.5em arial;
+	text-align: left;
+}
+
+#post1 {
+	float: rigth;
+}
+
+.second-post {
+	font: 0.9em arial;
+	padding: 3px;
+	margin-left: 10em;	
+}
+
+.second-post h1{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+#content {
+	height: 8em;
+}
+
+/*
+.left-col {
+	width: 66%;
+	float: left;
+}
+
+.rigth-col {
+	float: rigth;
+	width: 32%;
+	margin-left: 2%;
+}
+
+.left {
+	float: left;
+}
+
+.rigth {
+	float: rigth;
+}
+
+.group:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
